@@ -1528,34 +1528,46 @@ our team {
 }
 
 
-@media (max-width: 600px) {
+  @media (max-width: 600px) {
+    #advanced-features {
+      padding: 10vw 20px; /* More space around the content on mobile */
+    }
+
     #advanced-features h2 {
-      font-size: 6vw; /* smaller font size for mobile */
+      font-size: 8vw; /* Adjust font size for smaller screens */
     }
 
     #advanced-features img {
-      width: 100%; /* Ensure image takes full width */
+      width: 100%; /* Ensure image fits within the screen */
     }
   }
 
   /* For tablets and medium screens */
   @media (min-width: 601px) and (max-width: 1024px) {
+    #advanced-features {
+      padding: 7vw 20px; /* Medium padding for tablets */
+    }
+
     #advanced-features h2 {
-      font-size: 4vw; /* adjust font size for tablets */
+      font-size: 6vw; /* Adjust font size for tablets */
     }
 
     #advanced-features img {
-      width: 90%; /* slightly smaller image size */
+      width: 90%; /* Make image slightly smaller */
     }
   }
 
-  /* For larger screens like desktop */
+  /* For large screens like desktops */
   @media (min-width: 1025px) {
+    #advanced-features {
+      padding: 5vw 20px; /* Regular padding for larger screens */
+    }
+
     #advanced-features h2 {
-      font-size: 3rem; /* bigger font size for desktop */
+      font-size: 4rem; /* Set a fixed font size for desktop */
     }
 
     #advanced-features img {
-      width: 80%; /* adjust the image size */
+      width: 80%; /* Limit the image size on large screens */
     }
   }
