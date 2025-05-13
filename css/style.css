@@ -1542,7 +1542,7 @@ our team {
 }
 
 .coming-soon-text {
-  font-size: 5rem; /* Increase size */
+  font-size: 10rem; /* Increase size */
   font-weight: bold;
   margin-top: 20px;
 }
