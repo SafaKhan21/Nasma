@@ -1542,11 +1542,10 @@ our team {
 }
 
 .coming-soon-text {
- font-size: 100px; /* Equivalent to 10rem if base is 16px */
+  font-size: clamp(40px, 10vw, 100px);
   font-weight: bold;
   margin-top: 20px;
-  line-height: 1;
+  line-height: 1.2;
   text-align: center;
 }
-
 
