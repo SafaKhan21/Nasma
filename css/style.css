@@ -1526,6 +1526,26 @@ our team {
 #footer .footer-links a:hover {
   color: #6676AA;
 }
+.center-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Full screen height */
+  text-align: center;
+  background-color: #fff; /* Optional: change background if needed */
+}
+
+.advanced-feature-img {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.coming-soon-text {
+  font-size: 3rem; /* Increase size */
+  font-weight: bold;
+  margin-top: 20px;
+}
 
 
 
