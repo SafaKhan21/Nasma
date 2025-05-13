@@ -1530,7 +1530,7 @@ our team {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 90vh; /* Full screen height */
+  min-height: 100vh; /* Full screen height */
   text-align: center;
   background-color: #fff; /* Optional: change background if needed */
 }
