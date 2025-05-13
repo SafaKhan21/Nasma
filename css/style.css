@@ -1530,7 +1530,7 @@ our team {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh; /* Full screen height */
+  min-height: 90vh; /* Full screen height */
   text-align: center;
   background-color: #fff; /* Optional: change background if needed */
 }
@@ -1542,7 +1542,7 @@ our team {
 }
 
 .coming-soon-text {
-  font-size: 3rem; /* Increase size */
+  font-size: 5rem; /* Increase size */
   font-weight: bold;
   margin-top: 20px;
 }
